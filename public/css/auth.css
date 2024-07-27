@@ -1,0 +1,32 @@
+.bg-gradient-primary {
+  background-color: #cccccc;
+  background: linear-gradient(135deg, rgba(1, 67, 56, 0.8), rgba(0, 0, 0, 0.8));
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.card {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid #e3e6f0;
+  border-radius: .35rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Bayangan yang lebih ringan */
+}
+
+.alert {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.btn {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}

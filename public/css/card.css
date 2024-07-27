@@ -1,0 +1,61 @@
+.box-green {
+    transition: box-shadow 0.3s, transform 0.3s;
+    background-color: #a8e6cf;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.box-green:hover {
+    box-shadow: 0 0 30px rgba(60, 184, 3, 0.7);
+    transform: scale(1.05);
+}
+
+.box-yellow {
+    transition: box-shadow 0.3s, transform 0.3s;
+    background-color: #ffd700;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.box-yellow:hover {
+    box-shadow: 0 0 30px rgba(190, 204, 0, 0.7);
+    transform: scale(1.05);
+}
+
+.box-red {
+    transition: box-shadow 0.3s, transform 0.3s;
+    background-color: #ff6f69;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.box-red:hover {
+    box-shadow: 0 0 20px rgba(255, 22, 22, 0.7);
+    transform: scale(1.05);
+}
+
+.box-blue {
+    transition: box-shadow 0.3s, transform 0.3s;
+    background-color: #4fc3f7;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.box-blue:hover {
+    box-shadow: 0 0 30px rgba(0, 59, 187, 0.7);
+    transform: scale(1.05);
+}
+
+.card-anim {
+    border-radius: 8px;
+    background: #ffffff;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.08), 0 0 6px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s cubic-bezier(0.155, 1.105, 0.295, 1.12), box-shadow 0.3s, -webkit-transform 0.3s cubic-bezier(0.155, 1.105, 0.295, 1.12);
+    padding: 20px;
+    cursor: pointer;
+}
+
+.card-anim:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12), 0 4px 8px rgba(0, 0, 0, 0.06);
+}
